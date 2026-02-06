@@ -1,0 +1,653 @@
+﻿* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@media (max-width: 1199px) {
+  .transition-img h1 {
+    font-size: 30px;
+  }
+  .trans-btn a {
+    font-size: 18px;
+  }
+  .trans-btn {
+    top: 60%;
+  }
+  .new-info a:nth-of-type(2) {
+    display: block;
+  }
+  .trans-btn {
+    padding: 10px 15px;
+  }
+  /* design.html */
+  .overview-img,
+  .bg-chair {
+    max-width: 100%;
+  }
+
+  .pttt-3 {
+    padding-top: 20px;
+  }
+
+  /* .new-info {
+    max-width: 384px;
+  } */
+  .row-wapper {
+    padding: 10px 0;
+  }
+  .main-menu .nav-link,
+  .post-date {
+    font-size: 16px;
+    line-height: 8px;
+  }
+ 
+  .service-text,
+  .news-title {
+    font-size: 24px;
+  }
+  .new-info a:last-of-type,
+  .page-list a {
+    font-size: 15px;
+  }
+  .content-text p {
+    font-size: 15px;
+    line-height: 18px;
+  }
+  .inner-profile p,
+  .add-watch p,
+  .wapper-footer,
+  .row-wapper span,
+  .wapper-contantent span,
+  .icon-row span {
+    font-size: 15px;
+  }
+  .inner-profile p {
+    font-size: 17px;
+  }
+  .link-nav {
+    font-size: 13px;
+  }
+  .wapper-content .title,
+  .h5k {
+    font-size: 24px;
+  }
+  .title-content,
+  .text-view,
+  .side-nav p {
+    font-size: 15px;
+    line-height: 18px;
+  }
+  .element a,
+  .side-nav li a {
+    font-size: 15px;
+  }
+  .wapper-three a,
+  .sign-up .text-white,
+  .footer-title,
+  .row-wapper h3 {
+    font-size: 16px;
+  }
+  .new-info a:nth-of-type(2),
+  .side-nav h3,
+  .new-info p {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .nav-title,
+  .post-content__title h3,
+  .advise-user h2 {
+    font-size: 20px;
+  }
+  .click-icon__app {
+    margin-bottom: 17px;
+  }
+  .background-banner p {
+    font-size: 24px;
+  }
+  .side-title span,
+  .side-twin p a {
+    font-size: 16px;
+  }
+}
+@media (max-width: 768px) {
+  /* index.html */
+  .search-header {
+    justify-content: flex-start;
+  }
+  .box-thumb__new {
+    text-align: left;
+    padding: 0 55px;
+  }
+  .menu-header .navbar-expand-lg {
+    justify-content: flex-start;
+  }
+  .dr-flex {
+    flex-direction: row !important;
+  }
+  .gap-3 {
+    gap: 15px;
+  }
+  .trans-btn {
+    top: 65%;
+  }
+  .new-info a:nth-of-type(2) {
+    display: block;
+  }
+  .wap {
+    display: none;
+  }
+  .background-program {
+    height: 150px;
+  }
+  .wapper-slogen {
+    min-height: 80px;
+  }
+  .trans-btn {
+    padding: 10px 15px;
+  }
+  /* design.html */
+  .overview-img,
+  .bg-chair {
+    max-width: 100%;
+  }
+  .position-absolutety {
+    left: 10%;
+  }
+  .image-background {
+    display: none;
+  }
+  .pttt-3 {
+    padding-top: 20px;
+  }
+
+  .new-info {
+    max-width: 384px;
+  }
+  .row-wapper {
+    padding: 10px 0;
+  }
+  .main-menu .nav-link,
+  .post-date {
+    font-size: 13px;
+    line-height: 8px;
+  }
+  .transition-img h1,
+  .service-text,
+  .news-title {
+    font-size: 24px;
+  }
+  .trans-btn a,
+  .new-info a:last-of-type,
+  .page-list a {
+    font-size: 14px;
+  }
+  .content-text p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .inner-profile p,
+  .add-watch p,
+  .wapper-footer,
+  .row-wapper span,
+  .wapper-contantent span,
+  .icon-row span {
+    font-size: 14px;
+  }
+  .link-nav {
+    font-size: 10px;
+  }
+  .wapper-content .title,
+  .h5k {
+    font-size: 20px;
+  }
+  
+  .title-content,
+  .text-view,
+  .side-nav p {
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .element a,
+  .side-nav li a {
+    font-size: 12px;
+  }
+  .wapper-three a,
+  .sign-up .text-white,
+  .footer-title,
+  .row-wapper h3 {
+    font-size: 14px;
+  }
+  .new-info a:nth-of-type(2),
+  .side-nav h3,
+  .new-info p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .nav-title,
+  .post-content__title h3,
+  .advise-user h2 {
+    font-size: 18px;
+  }
+  .click-icon__app {
+    margin-bottom: 17px;
+  }
+  .background-banner p {
+    font-size: 22px;
+  }
+  .side-title span,
+  .side-twin p a {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 575px) {
+  .main-menu .nav-link,
+  .post-date {
+    font-size: 10px;
+    line-height: 8px;
+  }
+  .position-absolutety {
+    left: 13%;
+  }
+  .transition-img h1,
+  .service-text,
+  .news-title {
+    font-size: 22px;
+  }
+  .trans-btn a,
+  .new-info a:last-of-type,
+  .page-list a {
+    font-size: 12px;
+  }
+  .wapper-slogen {
+    min-height: 55px;
+  }
+  .content-text p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .inner-profile p,
+  .add-watch p,
+  .wapper-footer,
+  .row-wapper span,
+  .wapper-contantent span,
+  .icon-row span {
+    font-size: 12px;
+  }
+  .link-nav {
+    font-size: 8px;
+  }
+  .wapper-content .title,
+  .h5k {
+    font-size: 18px;
+  }
+  .title-content,
+  .text-view,
+  .side-nav p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .element a,
+  .side-nav li a {
+    font-size: 10px;
+  }
+  .wapper-three a,
+  .sign-up .text-white,
+  .footer-title,
+  .row-wapper h3 {
+    font-size: 14px;
+  }
+  .new-info a:nth-of-type(2),
+  .side-nav h3,
+  .new-info p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .nav-title,
+  .post-content__title h3,
+  .advise-user h2 {
+    font-size: 16px;
+  }
+  .click-icon__app {
+    margin-bottom: 15px;
+  }
+  .background-banner p {
+    font-size: 20px;
+  }
+  .side-title span,
+  .side-twin p a {
+    font-size: 12px;
+  }
+}
+@media (max-width: 991px) {
+  .dr-flex {
+    flex-direction: row !important;
+  }
+  .main-menu .nav-link {
+    font-size: 15px;
+  }
+  .hw-333 {
+    height: 333px;
+  }
+  .h-478 {
+    height: 478px;
+  }
+  .gapwant-10 {
+    gap: 10px;
+  }
+  .position-absolutety {
+    left: 13%;
+    top: 80%;
+  }
+  .transition-img h1 {
+    font-size: 28px;
+  }
+  .trans-btn a {
+    font-size: 18px;
+  }
+  .trans-btn {
+    top: 60%;
+  }
+  .new-info a:nth-of-type(2) {
+    display: block;
+  }
+  .trans-btn {
+    padding: 10px 15px;
+  }
+  /* design.html */
+  .overview-img,
+  .bg-chair {
+    max-width: 100%;
+  }
+
+  .pttt-3 {
+    padding-top: 20px;
+  }
+
+  /* .new-info {
+    max-width: 384px;
+  } */
+  .row-wapper {
+    padding: 10px 0;
+  }
+  .main-menu .nav-link,
+  .post-date {
+    font-size: 15px;
+    line-height: 8px;
+  }
+  .transition-img h1,
+  .service-text,
+  .news-title {
+    font-size: 24px;
+  }
+  .trans-btn a,
+  .new-info a:last-of-type,
+  .page-list a {
+    font-size: 14px;
+  }
+  .content-text p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .inner-profile p,
+  .add-watch p,
+  .wapper-footer,
+  .row-wapper span,
+  .wapper-contantent span,
+  .icon-row span {
+    font-size: 14px;
+  }
+  .link-nav {
+    font-size: 12px;
+  }
+  .wapper-content .title,
+  .h5k {
+    font-size: 20px;
+  }
+  .title-content,
+  .text-view,
+  .side-nav p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .element a,
+  .side-nav li a {
+    font-size: 14px;
+  }
+  .wapper-three a,
+  .sign-up .text-white,
+  .footer-title,
+  .row-wapper h3 {
+    font-size: 14px;
+  }
+  .new-info a:nth-of-type(2),
+  .side-nav h3,
+  .new-info p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .nav-title,
+  .post-content__title h3,
+  .advise-user h2 {
+    font-size: 18px;
+  }
+  .click-icon__app {
+    margin-bottom: 17px;
+  }
+  .background-banner p {
+    font-size: 22px;
+  }
+  .side-title span,
+  .side-twin p a {
+    font-size: 14px;
+  }
+}
+@media (max-width: 768px) {
+  /* index.html */
+  .search-header {
+    justify-content: flex-start;
+  }
+  .box-thumb__new {
+    text-align: left;
+    padding: 0 55px;
+  }
+  .menu-header .navbar-expand-lg {
+    justify-content: flex-start;
+  }
+  .dr-flex {
+    flex-direction: row !important;
+  }
+  .gap-3 {
+    gap: 15px;
+  }
+  .trans-btn {
+    top: 65%;
+  }
+  .new-info a:nth-of-type(2) {
+    display: block;
+  }
+  .wap {
+    display: none;
+  }
+  .background-program {
+    height: 150px;
+  }
+  .wapper-slogen {
+    min-height: 80px;
+  }
+  .trans-btn {
+    padding: 10px 15px;
+  }
+  /* design.html */
+  .overview-img,
+  .bg-chair {
+    max-width: 100%;
+  }
+  .position-absolutety {
+    left: 10%;
+  }
+  .image-background {
+    display: none;
+  }
+  .pttt-3 {
+    padding-top: 20px;
+  }
+
+  .new-info {
+    max-width: 384px;
+  }
+  .row-wapper {
+    padding: 10px 0;
+  }
+  .main-menu .nav-link,
+  .post-date {
+    font-size: 13px;
+    line-height: 8px;
+  }
+  .transition-img h1,
+  .service-text,
+  .news-title {
+    font-size: 24px;
+  }
+  .trans-btn a,
+  .new-info a:last-of-type,
+  .page-list a {
+    font-size: 14px;
+  }
+  .content-text p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .inner-profile p,
+  .add-watch p,
+  .wapper-footer,
+  .row-wapper span,
+  .wapper-contantent span,
+  .icon-row span {
+    font-size: 14px;
+  }
+  .link-nav {
+    font-size: 10px;
+  }
+  .wapper-content .title,
+  .h5k {
+    font-size: 20px;
+  }
+  .title-content,
+  .text-view,
+  .side-nav p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .element a,
+  .side-nav li a {
+    font-size: 12px;
+  }
+  .wapper-three a,
+  .sign-up .text-white,
+  .footer-title,
+  .row-wapper h3 {
+    font-size: 16px;
+  }
+  .new-info a:nth-of-type(2),
+  .side-nav h3,
+  .new-info p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .nav-title,
+  .post-content__title h3,
+  .advise-user h2 {
+    font-size: 18px;
+  }
+  .click-icon__app {
+    margin-bottom: 17px;
+  }
+  .background-banner p {
+    font-size: 22px;
+  }
+  .side-title span,
+  .side-twin p a {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 575px) {
+  .main-menu .nav-link,
+  .post-date {
+    font-size: 10px;
+    line-height: 8px;
+  }
+  .position-absolutety {
+    left: 13%;
+  }
+  .transition-img h1,
+  .service-text,
+  .news-title {
+    font-size: 22px;
+  }
+  .trans-btn a,
+  .new-info a:last-of-type,
+  .page-list a {
+    font-size: 12px;
+  }
+  .wapper-slogen {
+    min-height: 55px;
+  }
+  .content-text p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .inner-profile p,
+  .add-watch p,
+  .wapper-footer,
+  .row-wapper span,
+  .wapper-contantent span,
+  .icon-row span {
+    font-size: 12px;
+  }
+  .link-nav {
+    font-size: 8px;
+  }
+  .wapper-content .title,
+  .h5k {
+    font-size: 18px;
+  }
+  .title-content,
+  .text-view,
+  .side-nav p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .element a,
+  .side-nav li a {
+    font-size: 10px;
+  }
+  .wapper-three a,
+  .sign-up .text-white,
+  .footer-title,
+  .row-wapper h3 {
+    font-size: 14px;
+  }
+  .new-info a:nth-of-type(2),
+  .side-nav h3,
+  .new-info p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .nav-title,
+  .post-content__title h3,
+  .advise-user h2 {
+    font-size: 16px;
+  }
+  .click-icon__app {
+    margin-bottom: 15px;
+  }
+  .background-banner p {
+    font-size: 20px;
+  }
+  .side-title span,
+  .side-twin p a {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Page Title</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    div {
+      display: block;
+      unicode-bidi: isolate;
+    }
+    .wrap {
+      height: 500px;
+      background-color: #ccc;
+      position: relative;
+    }
+    .postion-absolute {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      background-color: #f00;
+      width: 30%;
+    }
+    .container {
+      max-width: 1140px;
+      width: 100%;
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      margin-right: -15px;
+      margin-left: -15px;
+    }
+    .col-md-6 {
+      -ms-flex: 0 0 50%;
+      flex: 0 0 50%;
+      max-width: 50%;
+      position: relative;
+      width: 100%;
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+    img {
+      max-width: 100%;
+    }
+  </style>
+  <body>
+    <h1>This is a Heading</h1>
+    <p>This is a paragraph.</p>
+    <div class="wrap">
+      <div class="postion-absolute"></div>
+      <div class="container">
+        <div class="row">
+          <div class="image col-md-6">
+            <img
+              src="https://cdn.24h.com.vn/upload/1-2025/images/2025-03-13/dong-thai-cua-Nga-voi-My-sau-khi-Ukraine-san-sang-ngung-ban-trong-90-ngay-putin-1-1741851849-939-width1200height673.jpg" />
+          </div>
+          <div class="content col-md-6">
+            <p class="title">Du lịch</p>
+            <p class="title-content text-view">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+              nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
+              erat volutpat. Ut wisi enim ad minim veniam. Lorem ipsum dolor sit
+              amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+              tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi
+              enim ad minim veniam.Lorem ipsum dolor sit amet, consectetuer
+              adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+              laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim
+              veniam.<br />
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+              nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
+              erat volutpat. Ut wisi enim ad minim veniam.
+            </p>
+            <button class="element">
+              <a href="">TÌM HIỂU THÊM</a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
